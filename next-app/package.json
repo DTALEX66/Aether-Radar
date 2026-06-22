@@ -1,0 +1,50 @@
+{
+  "name": "ai-ecosystem-radar",
+  "version": "3.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4173",
+    "build": "next build",
+    "start": "next start -p 4173",
+    "lint": "eslint .",
+    "validate:data": "python ../scripts/validate_data.py",
+    "check:encoding": "python ../scripts/check_encoding_syntax.py",
+    "check:preflight": "python ../scripts/check_encoding_syntax.py && python ../scripts/validate_data.py",
+    "sync:data": "node scripts/sync-seeds.mjs",
+    "predev": "npm run sync:data && npm run check:preflight",
+    "prebuild": "npm run sync:data && npm run check:preflight",
+    "typecheck": "tsc --noEmit",
+    "check:all": "npm run sync:data && npm run check:preflight && npm run typecheck && npm run lint && npm run check:commercial",
+    "check:ui": "python ../scripts/ten_round_self_check.py",
+    "mcp:server": "node ../mcp-server/aether-radar-mcp.mjs",
+    "check:commercial": "python ../scripts/commercial_smoke_test.py",
+    "build:ci": "node scripts/build-ci.mjs",
+    "check:api-contract": "python ../scripts/api_contract_check.py",
+    "check:static-site": "python ../scripts/static_site_check.py",
+    "check:release": "python ../scripts/release_manifest.py",
+    "check:v3": "python ../scripts/verify_v3_1.py --python-only",
+    "verify:v3": "python ../scripts/verify_v3_1.py",
+    "check:v3.1": "python ../scripts/verify_v3_1.py --python-only",
+    "verify:v3.1": "python ../scripts/verify_v3_1.py"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "lucide-react": "0.468.0",
+    "next": "16.2.9",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "20.19.43",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "autoprefixer": "10.5.0",
+    "eslint": "9.39.2",
+    "eslint-config-next": "16.2.9",
+    "postcss": "8.5.15",
+    "tailwindcss": "3.4.19",
+    "typescript": "5.9.3",
+    "@eslint/js": "9.39.2",
+    "typescript-eslint": "8.49.0"
+  }
+}

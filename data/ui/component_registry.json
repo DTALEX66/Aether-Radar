@@ -1,0 +1,95 @@
+[
+  {
+    "id": "brand-header",
+    "name": "品牌导航头",
+    "purpose": "保持全站识别，不让页面像通用模板。",
+    "states": [
+      "desktop",
+      "mobile",
+      "sticky",
+      "active nav"
+    ]
+  },
+  {
+    "id": "radar-hero",
+    "name": "雷达英雄区",
+    "purpose": "用雷达网格、星点、数据指标表达全链路平台感。",
+    "states": [
+      "home",
+      "compact",
+      "dark"
+    ]
+  },
+  {
+    "id": "data-health-bar",
+    "name": "数据健康条",
+    "purpose": "展示收录量、GitHub项目、风险高发、核验比例。",
+    "states": [
+      "normal",
+      "warning",
+      "stale"
+    ]
+  },
+  {
+    "id": "entity-card",
+    "name": "工具实体卡片",
+    "purpose": "统一展示名称、直译、类别、热度、风险、来源、商用判断、API/MCP。",
+    "states": [
+      "curated",
+      "full",
+      "high-risk",
+      "local-deploy"
+    ]
+  },
+  {
+    "id": "risk-meter",
+    "name": "风险仪表",
+    "purpose": "把隐私、版权、商用、许可证、安全、维护、国内可用性可视化。",
+    "states": [
+      "low",
+      "medium",
+      "high",
+      "unknown"
+    ]
+  },
+  {
+    "id": "scenario-flow",
+    "name": "场景方案流",
+    "purpose": "把工具从列表变成工作流路线。",
+    "states": [
+      "starter",
+      "pro",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "comparison-table",
+    "name": "工具对比表",
+    "purpose": "适合 SEO 和选型决策。",
+    "states": [
+      "two-column",
+      "multi-column",
+      "print"
+    ]
+  },
+  {
+    "id": "export-hub",
+    "name": "导出接入中心",
+    "purpose": "展示 Excel/CSV/JSON/Markdown/Notion/飞书/PDF/API/MCP 出口。",
+    "states": [
+      "available",
+      "planned",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "ui-prompt-card",
+    "name": "UI生成提示卡",
+    "purpose": "让 Codex、Lovart、Figma AI、v0、Claude Code 根据本项目定制界面。",
+    "states": [
+      "copy",
+      "page-specific",
+      "component-specific"
+    ]
+  }
+]

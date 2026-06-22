@@ -1,0 +1,59 @@
+{
+  "version": "0.7",
+  "brandName": "Aether Radar｜AI 生态雷达",
+  "designIntent": "全链路 AI 工具选型平台，视觉上要像雷达指挥中心、知识库和风险控制台的结合体，而不是普通导航站。",
+  "moodKeywords": [
+    "雷达",
+    "星图",
+    "信任评分",
+    "风险分层",
+    "数据卡片",
+    "流光边框",
+    "专业中文 SaaS",
+    "可商用"
+  ],
+  "colors": {
+    "ink": "#0B1220",
+    "slate": "#334155",
+    "muted": "#64748B",
+    "paper": "#F8FAFC",
+    "panel": "#FFFFFF",
+    "line": "#E2E8F0",
+    "aetherBlue": "#2563EB",
+    "aetherCyan": "#06B6D4",
+    "aetherViolet": "#7C3AED",
+    "riskRed": "#DC2626",
+    "warnOrange": "#F97316",
+    "safeGreen": "#16A34A",
+    "gold": "#F59E0B"
+  },
+  "gradients": {
+    "hero": "radial-gradient(circle at 20% 20%, rgba(37,99,235,.22), transparent 34%), radial-gradient(circle at 80% 10%, rgba(124,58,237,.18), transparent 30%), linear-gradient(180deg, #F8FAFC 0%, #EEF6FF 48%, #FFFFFF 100%)",
+    "cardGlow": "linear-gradient(135deg, rgba(37,99,235,.13), rgba(6,182,212,.10), rgba(124,58,237,.12))",
+    "darkPanel": "linear-gradient(135deg, #0B1220 0%, #111827 52%, #172554 100%)"
+  },
+  "radii": {
+    "sm": "10px",
+    "md": "16px",
+    "lg": "24px",
+    "xl": "32px"
+  },
+  "shadows": {
+    "soft": "0 18px 60px rgba(15, 23, 42, 0.08)",
+    "glow": "0 24px 80px rgba(37, 99, 235, 0.18)",
+    "panel": "0 1px 0 rgba(255,255,255,.7) inset, 0 24px 60px rgba(15,23,42,.08)"
+  },
+  "typography": {
+    "fontStack": "-apple-system, BlinkMacSystemFont, Segoe UI, PingFang SC, Microsoft YaHei, sans-serif",
+    "h1": "48-72px / 0.96 / 900",
+    "h2": "28-36px / 1.15 / 800",
+    "body": "15-17px / 1.75 / 400",
+    "caption": "12-13px / 1.5 / 600"
+  },
+  "interaction": {
+    "cardHover": "translateY(-2px), shadow increase, border color to aetherBlue/20",
+    "filterActive": "blue filled pill with white text",
+    "riskHover": "show risk explanation and verify-before-use reminder",
+    "exportAction": "download button with format icon and data freshness note"
+  }
+}

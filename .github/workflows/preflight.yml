@@ -1,0 +1,31 @@
+name: Preflight
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Encoding and data checks
+        run: |
+          python scripts/check_encoding_syntax.py
+          python scripts/validate_data.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: next-app/package-lock.json
+      - name: Install and build Next app
+        working-directory: next-app
+        run: |
+          npm ci || npm install
+          npm run sync:data
+          npm run check:preflight
+          npm run build

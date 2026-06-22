@@ -1,0 +1,38 @@
+[
+  {
+    "id": "dify-vs-n8n",
+    "title": "Dify vs n8n",
+    "a": "Dify",
+    "b": "n8n",
+    "bestForA": "LLM应用、RAG、Agent、聊天工作流",
+    "bestForB": "通用自动化、SaaS连接、定时任务",
+    "decision": "做AI应用优先Dify；做跨工具自动化优先n8n；复杂项目可组合使用。"
+  },
+  {
+    "id": "comfyui-vs-liblibai",
+    "title": "ComfyUI vs LiblibAI",
+    "a": "ComfyUI",
+    "b": "LiblibAI",
+    "bestForA": "本地控制、批量工作流、可复现流程",
+    "bestForB": "国内在线生图、模型社区、快速上手",
+    "decision": "专业/可控选ComfyUI；快速找模型和在线生成选LiblibAI。"
+  },
+  {
+    "id": "ollama-vs-lmstudio",
+    "title": "Ollama vs LM Studio",
+    "a": "Ollama",
+    "b": "LM Studio",
+    "bestForA": "命令行/API/服务化、本地应用集成",
+    "bestForB": "新手GUI、模型下载和聊天测试",
+    "decision": "开发集成选Ollama；新手体验选LM Studio。"
+  },
+  {
+    "id": "cursor-vs-cline",
+    "title": "Cursor vs Cline",
+    "a": "Cursor",
+    "b": "Cline",
+    "bestForA": "完整AI IDE和成熟产品体验",
+    "bestForB": "开源、VS Code、MCP/多模型自定义",
+    "decision": "追求体验选Cursor；追求开源和可控选Cline。"
+  }
+]

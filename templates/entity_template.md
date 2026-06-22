@@ -1,0 +1,21 @@
+# {{name}}
+
+- 原名：{{name}}
+- 直译：{{literal}}
+- 常用中文名：{{cn}}
+- 类别：{{category}}
+- 类型：{{type}}
+- 一句话解释：{{summary}}
+- 能给AI/用户带来的帮助：{{value}}
+- 官网：{{url}}
+- GitHub：{{githubRepo}}
+- 热度等级：{{heatLevel}}
+- 是否开源：{{openSource}}
+- 是否本地部署：{{localDeploy}}
+- 国内可用性：{{chinaUsability}}
+- 风险等级：{{riskLevel}}
+- 风险备注：{{riskNote}}
+- 适合人群：
+- 替代品：
+- 使用教程：
+- 最后核验日期：

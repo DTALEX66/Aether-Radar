@@ -1,0 +1,44 @@
+[
+  {
+    "id": "privacy",
+    "name": "隐私风险",
+    "description": "是否上传用户数据、代码、文件或敏感资料到云端。",
+    "levels": "低/中/高/未知"
+  },
+  {
+    "id": "copyright",
+    "name": "版权风险",
+    "description": "生成内容、模型、素材、训练数据是否可能涉及版权。",
+    "levels": "低/中/高/未知"
+  },
+  {
+    "id": "commercial",
+    "name": "商用风险",
+    "description": "是否允许商业使用，是否需要额外授权。",
+    "levels": "低/中/高/需核验"
+  },
+  {
+    "id": "license",
+    "name": "许可证风险",
+    "description": "开源许可证是否限制闭源/商用/分发。",
+    "levels": "MIT/Apache-2.0/GPL/AGPL/未知"
+  },
+  {
+    "id": "security",
+    "name": "安全风险",
+    "description": "是否能执行命令、操作浏览器、连接账号、调用外部系统。",
+    "levels": "低/中/高/需沙箱"
+  },
+  {
+    "id": "maintenance",
+    "name": "维护风险",
+    "description": "项目是否停更、归档、Issue过多或Release不稳定。",
+    "levels": "活跃/一般/低/归档"
+  },
+  {
+    "id": "china",
+    "name": "国内可用性风险",
+    "description": "访问、支付、登录、中文支持、网络稳定性。",
+    "levels": "稳定/一般/不稳定/需代理"
+  }
+]

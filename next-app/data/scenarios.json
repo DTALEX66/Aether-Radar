@@ -1,0 +1,106 @@
+[
+  {
+    "id": "design-wall",
+    "name": "AI海报/文化墙设计",
+    "user": "设计师、广告公司、校园/企业文化墙项目经理",
+    "stack": [
+      "Lovart AI",
+      "LiblibAI",
+      "ComfyUI",
+      "Midjourney",
+      "Figma",
+      "Canva AI"
+    ],
+    "difficulty": "中",
+    "cost": "中",
+    "localPossible": "部分",
+    "risk": "版权/肖像/商用授权/模型来源",
+    "path": "新手用Lovart+Canva出方案；进阶用LiblibAI/ComfyUI控风格；最终用Figma/PS人工精修。"
+  },
+  {
+    "id": "wechat-game",
+    "name": "微信小游戏开发",
+    "user": "个人开发者、小游戏创业者",
+    "stack": [
+      "Cursor",
+      "Claude Code",
+      "Codex",
+      "Cline",
+      "微信开发者工具",
+      "ComfyUI/LiblibAI素材"
+    ],
+    "difficulty": "中",
+    "cost": "中",
+    "localPossible": "部分",
+    "risk": "代码质量/版权素材/广告合规/小程序审核",
+    "path": "先做MVP，再做关卡和美术资产，最后接广告/数据统计。"
+  },
+  {
+    "id": "local-ai-assistant",
+    "name": "本地AI助手/私有知识库",
+    "user": "个人、企业、团队",
+    "stack": [
+      "Ollama",
+      "Open WebUI",
+      "AnythingLLM",
+      "Obsidian/Notion/飞书",
+      "Qdrant/Chroma"
+    ],
+    "difficulty": "中",
+    "cost": "低-中",
+    "localPossible": "是",
+    "risk": "本地服务暴露/模型许可证/敏感数据",
+    "path": "先Ollama+Open WebUI跑通，再加知识库和权限控制。"
+  },
+  {
+    "id": "enterprise-rag",
+    "name": "企业知识库/RAG",
+    "user": "企业、学校、机构",
+    "stack": [
+      "Dify",
+      "RAGFlow",
+      "LlamaIndex",
+      "Milvus/Qdrant",
+      "OpenAI/DeepSeek/Qwen"
+    ],
+    "difficulty": "高",
+    "cost": "中-高",
+    "localPossible": "是",
+    "risk": "数据合规/权限/幻觉/引用可信度",
+    "path": "先做文档解析和检索评测，再做权限和审计。"
+  },
+  {
+    "id": "ai-automation-report",
+    "name": "AI自动化推送/报告",
+    "user": "运营、投资、项目经理",
+    "stack": [
+      "n8n",
+      "Dify",
+      "RSS",
+      "GitHub API",
+      "邮件/飞书/企业微信"
+    ],
+    "difficulty": "中",
+    "cost": "低-中",
+    "localPossible": "是",
+    "risk": "重复推送/来源错误/API成本/权限",
+    "path": "先做每日摘要，再加来源引用和人工审核。"
+  },
+  {
+    "id": "ai-research",
+    "name": "AI研究助手",
+    "user": "学生、研究员、产品经理",
+    "stack": [
+      "Perplexity",
+      "NotebookLM",
+      "Zotero",
+      "Exa/Tavily",
+      "Obsidian/Notion"
+    ],
+    "difficulty": "低-中",
+    "cost": "低-中",
+    "localPossible": "部分",
+    "risk": "引用错误/资料上传/过时信息",
+    "path": "先用搜索和资料问答，再沉淀到知识库。"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Toolify",
+    "type": "AI工具目录",
+    "scale": "约 29,329+ AI tools / 459 categories（页面口径，需定期核验）",
+    "url": "https://www.toolify.ai/",
+    "learn": "超细分类、搜索筛选、工具卡片、每日更新口径。",
+    "gap": "偏工具列表，风险/商用/场景方案弱。"
+  },
+  {
+    "name": "Futurepedia",
+    "type": "AI工具目录+教育",
+    "scale": "4,000+ curated tools / 500,000+ accounts（官网口径）",
+    "url": "https://www.futurepedia.io/",
+    "learn": "工具库+课程教育+场景教程结合。",
+    "gap": "不是全链路选型系统，导出/风险/开源热度不足。"
+  },
+  {
+    "name": "Future Tools",
+    "type": "精选AI工具库",
+    "scale": "4,000+ AI tools / 29 categories（官网口径）",
+    "url": "https://futuretools.io/",
+    "learn": "人工精选、免费/付费/开源筛选、AI新闻。",
+    "gap": "没有中文用户可用性、许可证/风险评分。"
+  },
+  {
+    "name": "Glama MCP Registry",
+    "type": "MCP服务器注册表",
+    "scale": "MCP servers/connectors/tools；含 license、quality、maintenance 评分",
+    "url": "https://glama.ai/mcp/servers",
+    "learn": "每个工具显示 license、quality、maintenance，值得学习风险/质量评分。",
+    "gap": "偏 MCP 开发者生态，普通用户难理解。"
+  },
+  {
+    "name": "PulseMCP",
+    "type": "MCP聚合目录",
+    "scale": "约 19k+ MCP servers（站点口径，需核验）",
+    "url": "https://www.pulsemcp.com/servers",
+    "learn": "聚合多源 registry、每日更新、按 server 分类。",
+    "gap": "缺少非 MCP 全生态工具和场景方案。"
+  },
+  {
+    "name": "Hugging Face",
+    "type": "模型/数据集/Spaces社区",
+    "scale": "百万级模型/数据集生态（平台口径动态变化）",
+    "url": "https://huggingface.co/",
+    "learn": "模型、数据集、Spaces三位一体，社区资产丰富。",
+    "gap": "非工具选型平台，普通用户不易判断项目方案。"
+  },
+  {
+    "name": "LiblibAI 哩布哩布",
+    "type": "国内AI创作/模型社区",
+    "scale": "10万+模型免费下载（官网口径）",
+    "url": "https://www.liblib.art/",
+    "learn": "国内AI绘图模型、在线WebUI/ComfyUI、训练和生图。",
+    "gap": "创作垂直，不覆盖全生态工具选型。"
+  },
+  {
+    "name": "Civitai",
+    "type": "国际AI图像模型社区",
+    "scale": "模型/LoRA/作品社区，资源丰富",
+    "url": "https://civitai.com/",
+    "learn": "社区模型资产、风格模型、作品发现。",
+    "gap": "版权、肖像、NSFW、滥用风险需要明确提醒。"
+  },
+  {
+    "name": "Product Hunt AI",
+    "type": "新品发现/投票社区",
+    "scale": "AI Agents、LLMs、Infrastructure 等主题分类",
+    "url": "https://www.producthunt.com/topics/artificial-intelligence",
+    "learn": "新品发现、投票、社区热度。",
+    "gap": "长期选型、风险和导出能力弱。"
+  }
+]

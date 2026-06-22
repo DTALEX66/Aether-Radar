@@ -1,0 +1,25 @@
+name: build
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: next-app/package.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python scripts/check_encoding_syntax.py
+      - run: python scripts/validate_data.py
+      - run: cd next-app && npm install
+      - run: cd next-app && npm run sync:data
+      - run: cd next-app && npm run typecheck
+      - run: cd next-app && npm run build

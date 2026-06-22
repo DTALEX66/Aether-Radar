@@ -1,0 +1,21 @@
+# Normalize text files to LF and UTF-8 friendly diffs across coding clients.
+* text=auto eol=lf
+
+# Keep Windows scripts CRLF when intentionally added.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# Treat packaged/binary assets as binary to prevent corruption.
+*.zip binary
+*.xlsx binary
+*.xls binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary
+*.ico binary
+*.woff binary
+*.woff2 binary

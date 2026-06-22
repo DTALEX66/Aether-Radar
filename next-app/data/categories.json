@@ -1,0 +1,104 @@
+[
+  {
+    "id": "ai-search",
+    "name": "AI搜索与研究",
+    "description": "AI搜索、深度研究、论文/资料问答。",
+    "priority": "P1"
+  },
+  {
+    "id": "ai-coding",
+    "name": "AI编程与Vibe Coding",
+    "description": "AI IDE、Coding Agent、代码审查、项目生成。",
+    "priority": "P0"
+  },
+  {
+    "id": "agent",
+    "name": "Agent与多智能体",
+    "description": "通用Agent、Multi-Agent、Agent框架、Agent市场。",
+    "priority": "P0"
+  },
+  {
+    "id": "mcp-protocol",
+    "name": "MCP / A2A / AG-UI / NLWeb",
+    "description": "Agent连接工具、Agent互通、前端协议、自然语言Web。",
+    "priority": "P0"
+  },
+  {
+    "id": "design-image-video",
+    "name": "AI设计/图像/视频",
+    "description": "设计Agent、绘图、视频、模型社区、工作流。",
+    "priority": "P0"
+  },
+  {
+    "id": "knowledge-base",
+    "name": "知识库/第二大脑/RAG",
+    "description": "个人知识库、企业知识库、RAG、笔记与文献工具。",
+    "priority": "P0"
+  },
+  {
+    "id": "automation",
+    "name": "自动化与Workflow",
+    "description": "n8n、Dify、Zapier、Coze、低代码工作流。",
+    "priority": "P0"
+  },
+  {
+    "id": "local-deploy",
+    "name": "本地部署与省钱",
+    "description": "Ollama、Open WebUI、llama.cpp、本地模型和私有部署。",
+    "priority": "P0"
+  },
+  {
+    "id": "browser-agent",
+    "name": "AI浏览器与网页Agent",
+    "description": "Browser-use、Stagehand、Operator、AI Browser。",
+    "priority": "P1"
+  },
+  {
+    "id": "models",
+    "name": "模型与模型平台",
+    "description": "GPT、Claude、Gemini、DeepSeek、Qwen、Llama、Hugging Face。",
+    "priority": "P0"
+  },
+  {
+    "id": "llmops",
+    "name": "LLMOps / Eval / Observability",
+    "description": "评测、监控、Tracing、Prompt测试、成本分析。",
+    "priority": "P1"
+  },
+  {
+    "id": "data-crawling",
+    "name": "数据采集与Web Data",
+    "description": "Firecrawl、Crawl4AI、Tavily、Exa、Jina 等。",
+    "priority": "P1"
+  },
+  {
+    "id": "office-content",
+    "name": "办公/文档/内容创作",
+    "description": "PPT、写作、会议纪要、表格、文档智能。",
+    "priority": "P1"
+  },
+  {
+    "id": "audio-voice",
+    "name": "语音/音频/数字人",
+    "description": "TTS、ASR、语音Agent、配音、音乐、数字人。",
+    "priority": "P2"
+  },
+  {
+    "id": "security-risk",
+    "name": "安全/风险/合规",
+    "description": "Prompt Injection、MCP安全、版权、隐私、许可证、企业合规。",
+    "priority": "P0"
+  },
+  {
+    "id": "platform-directories",
+    "name": "AI工具目录与平台榜",
+    "description": "TAAFT、Toolify、Futurepedia、AIbase 等工具目录本身。",
+    "priority": "P1"
+  },
+  {
+    "id": "export-integration",
+    "name": "导出/同步/接入",
+    "description": "Excel、CSV、JSON、Markdown、Notion、飞书、API、MCP、PDF。",
+    "priority": "P0"
+  }
+]
