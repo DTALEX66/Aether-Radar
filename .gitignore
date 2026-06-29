@@ -34,3 +34,6 @@ Thumbs.db
 # Generated local exports
 /exports/
 *.local.zip
+
+# Build artifacts
+*.tsbuildinfo

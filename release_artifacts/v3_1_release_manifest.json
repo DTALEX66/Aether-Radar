@@ -1,13 +1,13 @@
 {
   "name": "Aether Radar",
   "version": "3.1",
-  "generatedAt": "2026-06-22T12:18:33.579477+00:00",
+  "generatedAt": "2026-06-29T17:15:30.178976+00:00",
   "status": "v3.1-execution-verified-stabilized",
   "counts": {
     "entities": 67,
     "categories": 17,
     "scenarios": 6,
-    "trackedFiles": 221
+    "trackedFiles": 227
   },
   "qualityGates": [
     "agent_handoff_protocol",
@@ -72,8 +72,8 @@
     },
     {
       "path": "STANDARDS_INDEX.md",
-      "sha256": "2dd3e2781e92d950000ac0a153bda8b375c60d31502fe29fe755fd50d7c2b148",
-      "bytes": 2000
+      "sha256": "f0f7c1ba4d5f849875ae2a775e509490e2711121c898bc411f38a5542c49e2f1",
+      "bytes": 2822
     },
     {
       "path": "docker-compose.yml",
@@ -134,6 +134,16 @@
       "path": "data/api/openapi.json",
       "sha256": "c079675a8ab5ce4ee2c29db9d8873827eb67188e0b8876f4672d3b175033eb5d",
       "bytes": 4016
+    },
+    {
+      "path": "data/schemas/capture_event.schema.json",
+      "sha256": "233619d88766f52d46aa2e53aa968bd52e821dd8918f360908e9d15f7533162c",
+      "bytes": 1881
+    },
+    {
+      "path": "data/schemas/learning_route.schema.json",
+      "sha256": "2f658ba2fcb89c215181e994a9387cf762bb23dcd5cbd772208979c97f0a445a",
+      "bytes": 3762
     },
     {
       "path": "data/seeds/categories.json",
@@ -471,6 +481,26 @@
       "bytes": 1673
     },
     {
+      "path": "docs/54_WAREHOUSE_PROJECT_INTEGRATION.md",
+      "sha256": "382bca67a17131702c0fd8d746e3514f5a824fe6f62b9e266b4ec591a7165474",
+      "bytes": 4756
+    },
+    {
+      "path": "docs/55_AGENT_QUALITY_AND_MEMORY_WORKFLOW.md",
+      "sha256": "de35b8deb483f1af1aa3ec3388c6c47a84ef2412a72ac4b956b9f7a92f1d2ae2",
+      "bytes": 3850
+    },
+    {
+      "path": "docs/56_KNOWLEDGE_CAPTURE_AND_LEARNING_ROADMAP.md",
+      "sha256": "1ae2e8223fabb786502017dcd461e5f6994c1019a52fbcc9f5df0b7c58e47682",
+      "bytes": 4435
+    },
+    {
+      "path": "docs/57_PROJECT_ORIENTATION_AND_NEXT_ACTIONS.md",
+      "sha256": "7e2a34d5538e0b1b30728d47a2fcf2e2ea1f2d06d71330ad3249c7795c947879",
+      "bytes": 6380
+    },
+    {
       "path": "mcp-server/README.md",
       "sha256": "27923fa4e303f34b3390ac814a199515f5cb4143137b501d879a02c87bcdb659",
       "bytes": 832
@@ -502,8 +532,8 @@
     },
     {
       "path": "next-app/package-lock.json",
-      "sha256": "9a74d379b434ec3867741da1b1ea736e49df616da2817c8fe51a7156063fc24e",
-      "bytes": 263782
+      "sha256": "c11dcea4ee7251c73b41b2b67a234a3b44cc317101aac221d19f0e943def3c7f",
+      "bytes": 235513
     },
     {
       "path": "next-app/package.json",
@@ -561,11 +591,6 @@
       "bytes": 718
     },
     {
-      "path": "next-app/app/api-docs/page.tsx",
-      "sha256": "24960d3068ff6c4a558edaacdc46e4bcfd834395a839f3539c53a25e57e3d7f3",
-      "bytes": 4088
-    },
-    {
       "path": "next-app/app/api/entities/route.ts",
       "sha256": "882f653aaee8185eea23f3770062156b6ba42f725f65306399964bc2766799e1",
       "bytes": 1988
@@ -606,6 +631,11 @@
       "bytes": 1711
     },
     {
+      "path": "next-app/app/api-docs/page.tsx",
+      "sha256": "24960d3068ff6c4a558edaacdc46e4bcfd834395a839f3539c53a25e57e3d7f3",
+      "bytes": 4088
+    },
+    {
       "path": "next-app/app/compare/page.tsx",
       "sha256": "6881d65a4c46bfe7d12fcc83dfbe7539e0bd6c701bab80c72f0e0b54fd29ce1c",
       "bytes": 1436
@@ -627,8 +657,8 @@
     },
     {
       "path": "next-app/app/exports/page.tsx",
-      "sha256": "b8fca42c67b3b77febdbe3a83c5a2645fd624dd0f47750b99a8cfa9f293ff5dd",
-      "bytes": 548
+      "sha256": "d64926c88dbf143037494925c44d6ad5f7a8c291e7f0b2f5f54bfbb20d425f3f",
+      "bytes": 746
     },
     {
       "path": "next-app/app/github/page.tsx",
@@ -681,34 +711,34 @@
       "bytes": 1364
     },
     {
-      "path": "next-app/app/terms-of-service/page.tsx",
-      "sha256": "013c6b57f1923fe70edcae64f0f843298b588a65ba95c0445d5f48665da679ba",
-      "bytes": 1433
-    },
-    {
       "path": "next-app/app/terms/page.tsx",
       "sha256": "71b4479419cbe95139f62a1947a18554fce670bb7bae550ccdd3d30dbcd66394",
       "bytes": 950
     },
     {
+      "path": "next-app/app/terms-of-service/page.tsx",
+      "sha256": "013c6b57f1923fe70edcae64f0f843298b588a65ba95c0445d5f48665da679ba",
+      "bytes": 1433
+    },
+    {
       "path": "next-app/app/tools/page.tsx",
-      "sha256": "bb90dcddc37568e2ccf6b436fc06f4eea9c6a80d9198434178c39d523406682f",
-      "bytes": 633
+      "sha256": "bd983da94bf6e2d5765f6b2ca7d61ce5a38b02b16d4cb69442e0541f2e5edd99",
+      "bytes": 676
     },
     {
       "path": "next-app/app/tools/[id]/page.tsx",
-      "sha256": "7d22e64f1cad8a52fe3709b84a15f9f6608ffefe38c6a528bcef6186cbfaf520",
-      "bytes": 4317
-    },
-    {
-      "path": "next-app/app/ui-generator/page.tsx",
-      "sha256": "adf0640f2a2db825982b4f44f423b41eef79ef71ef2730f16d715ad0b8005f97",
-      "bytes": 2961
+      "sha256": "92dd9a090af0ff49c28cb0a18114e50a220efc88b59d042aa443d82857908ac4",
+      "bytes": 4355
     },
     {
       "path": "next-app/app/ui/page.tsx",
       "sha256": "f27c77375f06026f78b0103d769bea14ba1aa191c63536863791b88b990f0839",
       "bytes": 4286
+    },
+    {
+      "path": "next-app/app/ui-generator/page.tsx",
+      "sha256": "adf0640f2a2db825982b4f44f423b41eef79ef71ef2730f16d715ad0b8005f97",
+      "bytes": 2961
     },
     {
       "path": "next-app/components/AddToStackButton.tsx",
@@ -867,8 +897,8 @@
     },
     {
       "path": "next-app/scripts/build-ci.mjs",
-      "sha256": "28ba47588e3db066a4d508fb5fe452ce6c2764e20129d84f748107b0b8b0b583",
-      "bytes": 933
+      "sha256": "2244b2f674bf7836e1c3564226991d304b0ca42b5a02bf641fa89e4bebaa1fba",
+      "bytes": 1052
     },
     {
       "path": "next-app/scripts/sync-seeds.mjs",
@@ -937,8 +967,8 @@
     },
     {
       "path": "scripts/verify_v3_0.ps1",
-      "sha256": "dfa69bc237f8b9dc7fa7bb5f9456dfce6d73564fad0979b1ab62088d9276d572",
-      "bytes": 165
+      "sha256": "aa84639c092f64e960e95e2ff21353bc239db0357fb1da8e66c85e69e9ad1a82",
+      "bytes": 168
     },
     {
       "path": "scripts/verify_v3_0.py",
@@ -952,8 +982,8 @@
     },
     {
       "path": "scripts/verify_v3_1.ps1",
-      "sha256": "dfa69bc237f8b9dc7fa7bb5f9456dfce6d73564fad0979b1ab62088d9276d572",
-      "bytes": 165
+      "sha256": "aa84639c092f64e960e95e2ff21353bc239db0357fb1da8e66c85e69e9ad1a82",
+      "bytes": 168
     },
     {
       "path": "scripts/verify_v3_1.py",

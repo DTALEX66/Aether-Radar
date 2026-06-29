@@ -2,11 +2,11 @@
 
 - Version: 3.1
 - Status: v3.1-execution-verified-stabilized
-- Generated: 2026-06-22T12:18:33.579477+00:00
+- Generated: 2026-06-29T17:15:30.178976+00:00
 - Entities: 67
 - Categories: 17
 - Scenarios: 6
-- Tracked files: 221
+- Tracked files: 227
 
 ## Required verification commands
 
