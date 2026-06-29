@@ -6,10 +6,13 @@ const env = {
   NEXT_PRIVATE_BUILD_WORKER: '1',
 };
 
-const child = spawn(process.platform === 'win32' ? 'npx.cmd' : 'npx', ['next', 'build'], {
-  stdio: 'inherit',
-  env,
-});
+const child = spawn(
+  process.platform === 'win32'
+    ? process.env.COMSPEC || 'cmd.exe'
+    : 'npx',
+  process.platform === 'win32' ? ['/d', '/s', '/c', 'npx next build'] : ['next', 'build'],
+  { stdio: 'inherit', env, shell: false },
+);
 
 const timeoutMs = Number(process.env.AETHER_BUILD_TIMEOUT_MS ?? 300000);
 const timer = setTimeout(() => {

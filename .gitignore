@@ -32,5 +32,8 @@ Thumbs.db
 .idea/
 
 # Generated local exports
-exports/
+/exports/
 *.local.zip
+
+# Build artifacts
+*.tsbuildinfo

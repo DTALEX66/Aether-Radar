@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Aether Learning Route Package",
+  "type": "object",
+  "required": [
+    "routeId",
+    "title",
+    "domain",
+    "version",
+    "status",
+    "nodes",
+    "qualityScores",
+    "createdAt",
+    "updatedAt"
+  ],
+  "properties": {
+    "routeId": { "type": "string" },
+    "title": { "type": "string" },
+    "domain": { "type": "string" },
+    "subjectPack": { "type": "string" },
+    "version": { "type": "string" },
+    "status": { "type": "string", "enum": ["draft", "confirmed", "frozen", "revised"] },
+    "visibility": { "type": "string", "enum": ["private", "link", "public"] },
+    "sourceEntityIds": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nodeId", "knowledge", "memory"],
+        "properties": {
+          "nodeId": { "type": "string" },
+          "knowledge": {
+            "type": "object",
+            "required": ["sourceText", "coreFact", "question", "answer", "riskLevel"],
+            "properties": {
+              "sourceText": { "type": "string" },
+              "sourceLocation": { "type": "string" },
+              "sourceType": { "type": "string" },
+              "coreFact": { "type": "string" },
+              "keywords": { "type": "array", "items": { "type": "string" } },
+              "question": { "type": "string" },
+              "answer": { "type": "string" },
+              "riskLevel": { "type": "integer", "minimum": 1, "maximum": 4 },
+              "sourceFidelityScore": { "type": "number", "minimum": 0, "maximum": 1 },
+              "requiresHumanReview": { "type": "boolean" }
+            }
+          },
+          "memory": {
+            "type": "object",
+            "properties": {
+              "memoryImageText": { "type": "string" },
+              "visualElementMap": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["element", "mapsTo"],
+                  "properties": {
+                    "element": { "type": "string" },
+                    "mapsTo": { "type": "string" },
+                    "reason": { "type": "string" }
+                  }
+                }
+              },
+              "storyLink": { "type": "string" },
+              "recallPrompt": { "type": "string" },
+              "confusionWarning": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "qualityScores": {
+      "type": "object",
+      "properties": {
+        "accuracy": { "type": "number", "minimum": 0, "maximum": 1 },
+        "sourceFidelity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "completeness": { "type": "number", "minimum": 0, "maximum": 1 },
+        "boundaryClarity": { "type": "number", "minimum": 0, "maximum": 1 },
+        "recallability": { "type": "number", "minimum": 0, "maximum": 1 },
+        "distinctiveness": { "type": "number", "minimum": 0, "maximum": 1 },
+        "cognitiveLoad": { "type": "number", "minimum": 0, "maximum": 1 },
+        "stability": { "type": "number", "minimum": 0, "maximum": 1 }
+      },
+      "additionalProperties": false
+    },
+    "changeSummary": {
+      "type": "object",
+      "properties": {
+        "factChanges": { "type": "integer", "minimum": 0 },
+        "memoryChanges": { "type": "integer", "minimum": 0 },
+        "imageChanges": { "type": "integer", "minimum": 0 },
+        "questionChanges": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "createdAt": { "type": "string", "format": "date-time" },
+    "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": false
+}
