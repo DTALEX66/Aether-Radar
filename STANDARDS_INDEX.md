@@ -52,3 +52,14 @@ python scripts/ten_round_self_check.py
 - `docs/48_PRIVACY_TERMS_AND_COMPLIANCE_DRAFT.md`：隐私与条款草案。
 - `docs/49_GITHUB_METRICS_UPDATE_RUNBOOK.md`：GitHub 指标更新。
 - `docs/50_V1_1_CHANGELOG.md`：v1.1 变更。
+
+## Warehouse consolidation addendum
+
+The following documents preserve useful material absorbed from sibling warehouse projects before cleanup:
+
+- `docs/54_WAREHOUSE_PROJECT_INTEGRATION.md`: keep/absorb/retire decisions and cleanup sequence.
+- `docs/55_AGENT_QUALITY_AND_MEMORY_WORKFLOW.md`: agent loop, quality gate, memory workflow, and token discipline.
+- `docs/56_KNOWLEDGE_CAPTURE_AND_LEARNING_ROADMAP.md`: future local capture, source diagnostics, learning route, and OCR/translation capture roadmap.
+- `data/schemas/capture_event.schema.json`: optional future capture event contract.
+- `data/schemas/learning_route.schema.json`: optional future learning route package contract.
+- docs/57_PROJECT_ORIENTATION_AND_NEXT_ACTIONS.md: current project map, verification commands, known limitations, and next action order.
